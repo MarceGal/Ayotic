@@ -1,0 +1,52 @@
+/*-Colores-*/
+
+$primary: #008DCD;
+$secondary: #8a7dff;
+$font-color:#040404;
+$general-bg-color:#008DCD;
+$header-nav-color: #fff;
+
+/*Transiciones*/
+
+$spd: 0.3s;
+$header-transition: ease-in-out $spd; // 0.3s
+$section-transition: ease-in-out $spd; // 0.4
+$form-transition: $spd;
+$off-canvas-menu-transition: ease-in-out $spd * 2; // 0.4
+
+/* Images */
+
+@mixin cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@mixin contain() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@mixin appBg() {
+    /*background-color: $general-bg-color;*/
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("https://source.unsplash.com/random");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("https://source.unsplash.com/random");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+@mixin gradiente-1() {
+    background: #cfd9df;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
+}

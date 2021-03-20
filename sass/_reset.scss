@@ -1,0 +1,33 @@
+/*RESET SALIENT DEFAULTS*/
+
+
+/*GENERAL*/
+
+body,
+#nectar_fullscreen_rows,
+#slide-out-widget-area-bg.slide-out-from-right,
+body .nectar-animated-title[data-color="accent-color"] .nectar-animated-title-inner:after,
+#nectar_fullscreen_rows>.wpb_row .full-page-inner-wrap {
+    background-color: transparent !important;
+}
+
+body,
+.container-wrap,
+.material .ocm-effect-wrap,
+.project-title,
+.ascend .container-wrap,
+.ascend .project-title,
+body .vc_text_separator div,
+.carousel-wrap[data-full-width="true"] .carousel-heading,
+.carousel-wrap .left-border,
+.carousel-wrap .right-border,
+.single-post.ascend #page-header-bg.fullscreen-header,
+.single-post #single-below-header.fullscreen-header,
+#page-header-wrap,
+.page-header-no-bg,
+#full_width_portfolio .project-title.parallax-effect,
+.portfolio-items .col,
+.page-template-template-portfolio-php .portfolio-items .col.span_3,
+.page-template-template-portfolio-php .portfolio-items .col.span_4 {
+    background-color: transparent !important;
+}

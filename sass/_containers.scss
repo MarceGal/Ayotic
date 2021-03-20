@@ -1,0 +1,268 @@
+///////////////////
+//LODING ICON
+///////////////////
+#ajax-loading-screen .loading-icon,
+.loading-icon,
+.pp_loaderIcon {
+    width: 64px;
+    left: calc( 50% - 32px);
+}
+
+///////////////////
+//LODING ICON
+///////////////////
+.material-ocm-open .container-wrap {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+//
+.using-mobile-browser .full-page-inner,
+.mobile .full-page-inner {
+    width: 100%;
+    height: 90vh;
+}
+
+///////////////////
+//FOOTER
+///////////////////
+//
+#footer-outer,
+#nectar_fullscreen_rows>#footer-outer.wpb_row .full-page-inner-wrap {
+    z-index: 100000 !important;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+#footer-outer {
+    #copyright {
+        color: #fff;
+    }
+}
+
+///////////////////
+//TOGGLE PANELS
+///////////////////
+//
+.toggle {
+    border: 0px !important;
+    h3 {
+        /*margin-bottom: 2rem !important;*/
+        padding: 0 0 0 15rem;
+        -ms-transition: background-position 0.5s ease !important;
+        transition: background-position 0.5s ease !important;
+        -webkit-transition: background-position 0.5s ease !important;
+        a {
+            color: #fff !important;
+            font-size: 3rem !important;
+            font-weight: 900 !important;
+        }
+        i {
+            border: 0px !important;
+            &:before {
+                width: 2rem !important;
+                height: 3rem !important;
+                top: -0.4rem !important;
+                background-image: url(../image/misc.5.svg) !important;
+                left: -2rem !important;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top;
+                background-color: transparent !important;
+                -ms-transition: transform 0.2s ease !important;
+                transition: transform 0.2s ease !important;
+                -webkit-transition: transform 0.2s ease !important;
+            }
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .inner-toggle-wrap {
+        padding: 2rem 2rem 2rem 15rem !important;
+        background-color: #fff;
+        &:before {
+            -ms-transition: left 0.5s ease !important;
+            transition: left 0.5s ease !important;
+            -webkit-transition: left 0.5s ease !important;
+        }
+        .wpb_content_element {
+            margin-bottom: 0;
+            p {
+                color: #000;
+            }
+        }
+    }
+    &.open {
+        h3 {
+            i {
+                &:before {
+                    transform: rotate(90deg);
+                    top: 0.4rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    //
+    body #header-outer {
+        background-color: transparent !important;
+    }
+    //
+    .toggle {
+        .inner-toggle-wrap,
+        h3 {
+            padding-left: 7rem;
+        }
+    }
+    //
+    #footer-outer {
+        display: none;
+    }
+    //
+    .footer-widgets {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    //
+    .toggle {
+        h3 {
+            padding: 0;
+            margin: 0 !important;
+            a {
+                font-size: 1.5rem !important;
+                line-height: 2rem !important;
+                padding-right: 90px !important;
+            }
+        }
+        .inner-toggle-wrap {
+            padding: 2rem !important;
+        }
+        &.open {
+            h3 {
+                i {
+                    &:before {
+                        top: -.1rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    //
+    .toggle {
+        .inner-toggle-wrap {
+            padding: 1rem !important;
+        }
+        h3 {
+            i {
+                &:before {
+                    width: 1rem !important;
+                    height: 2rem !important;
+                    top: 0.5rem !important;
+                    left: -1rem !important;
+                }
+            }
+            a {
+                padding-left: 1rem !important;
+            }
+        }
+    }
+}
+
+//
+///////////////////
+//MILESTONE NUMBERS
+///////////////////
+//
+.nectar-milestone {
+    .number {
+        font-family: $font !important;
+        font-size: 8rem !important;
+        line-height: 6rem !important;
+        margin: 0 0 1rem 1rem;
+        &.accent-color {
+            color: #ffffff !important;
+        }
+        .symbol-wrap {
+            font-size: 6rem !important;
+            line-height: 3rem !important;
+        }
+    }
+    .subject {
+        font-size: 2.5rem !important;
+        margin: 1rem 0 0 0;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nectar-milestone {
+        .number {
+            font-size: 4rem !important;
+            line-height: 3rem !important;
+            margin: 0 0 1rem 1rem;
+            .symbol-wrap {
+                font-size: 3rem !important;
+                line-height: 1rem !important;
+            }
+        }
+        .subject {
+            font-size: 1.5rem !important;
+            font-weight: 900;
+        }
+    }
+}
+
+///////////////////
+// DIVIDER
+///////////////////
+//
+.divider-small-border {
+    width: 50%;
+}
+
+///////////////////
+// ANIMATED  TITLES
+///////////////////
+@media only screen and (max-width: 768px) {
+    .nectar-animated-title h4 {
+        padding: 0;
+    }
+}
+
+///////////////////
+// TEAM
+///////////////////
+//
+@media only screen and (max-width: 768px) {
+    .nectar_team_member_overlay {
+        .team_member_details {
+            padding: 0 10%;
+            margin: auto 0;
+            .bio-inner {
+                .mobile-close {
+                    top: 3rem;
+                    position: fixed;
+                    right: 3rem;
+                    border-color: $primary !important;
+                    &:before,
+                    &:after {
+                        background-color: $primary !important;
+                    }
+                }
+            }
+            h2 {
+                margin-top: 4rem;
+                font-size: 2rem !important;
+                max-width: 75%;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g transform="translate(-1005 -1102)">
+    <rect transform="translate(1005 1102)" width="64" height="64" fill="rgba(255,255,255,0)" data-name="Rectángulo 3"></rect>
+    <g transform="translate(1006 1114.4)" fill="#fff" data-name="Layer 1">
+      <path d="M50.87.65H43.6L54.79,20.04,43.6,39.43h7.27l11.2-19.39Z" data-name="Trazado 7"></path>
+      <path d="M28.09,8.9v8.39h-5.4Zm6.32,8.39V.69H26.52L0,39.32H7.84l7.78-11.38,3.44-5H46.39V17.29Z" data-name="Trazado 8"></path>
+      <rect transform="translate(28.09 27.04)" width="6.32" height="12.28" data-name="Rectángulo 4"></rect>
+    </g>
+  </g>
+</svg>

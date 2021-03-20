@@ -1,0 +1,114 @@
+/*vARS*/
+
+$font: "Poppins",
+sans-serif;
+$fs: 1.2rem;
+$lh: 1.6;
+$lttspa: -0.7px;
+$h-font:$font;
+$fs-h1: 5rem;
+$lh-h1: 5rem;
+$fw-h1: 700;
+$lttspa-h1: -0.03rem;
+$fs-h2: 2.4rem;
+$lh-h2: 3rem;
+$fw-h2: 700;
+$lttspa-h2: -0.04rem;
+$fs-h3: 2rem;
+$lh-h3: 3rem;
+$fw-h3: 400;
+$lttspa-h3: -0.04rem;
+$fs-h4: 1.8rem;
+$fs-h6: 1.4rem;
+$nav-fs: 1.4rem;
+$nav-lh: 2rem;
+$nav-fw: 700;
+
+/*TYPOGRAPHY*/
+
+body {
+    font-family: $font !important;
+    color: $font-color !important;
+    font-size: $fs !important;
+    line-height: $lh !important;
+    letter-spacing: $lttspa !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $h-font !important;
+}
+
+h1 {
+    font-size: $fs-h1 !important;
+    line-height: $lh-h1 !important;
+    font-weight: $fw-h1 !important;
+    letter-spacing: $lttspa-h1 !important;
+}
+
+h2 {
+    font-size: $fs-h2 !important;
+    line-height: $lh-h2 !important;
+    font-weight: $fw-h2 !important;
+    letter-spacing: $lttspa-h2 !important;
+}
+
+h3 {
+    font-size: $fs-h3 !important;
+    line-height: $lh-h3 !important;
+    font-weight: $fw-h3 !important;
+    letter-spacing: $lttspa-h3 !important;
+}
+
+h4 {
+    font-size: $fs-h4 !important;
+}
+
+h6 {
+    font-size: $fs-h6 !important;
+}
+
+#top {
+    #logo {
+        font-family: $font !important;
+        font-size: $fs-h3 !important;
+        line-height: $lh-h3 !important;
+        font-weight: $fw-h1 !important;
+        letter-spacing: $lttspa-h3 !important;
+    }
+}
+
+#top nav>ul>li {
+    a {
+        font-size: $nav-fs !important;
+        line-height: $nav-lh !important;
+        font-weight: $nav-fw !important;
+    }
+}
+
+.bold,
+strong,
+b {
+    font-family: $font !important;
+    font-weight: $fw-h1 !important;
+}
+
+//
+//OFF-CANVA-MENU
+//
+#slide-out-widget-area[class*="slide-out-from-right"] .off-canvas-menu-container li a {
+    font-family: $font !important;
+    font-size: $nav-fs !important;
+    line-height: $nav-lh !important;
+    font-weight: $nav-fw !important;
+}
+
+//BUTTONS
+.nectar-button {
+    font-family: $font !important;
+    letter-spacing: $lttspa !important;
+}

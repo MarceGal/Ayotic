@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.77 40">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect x="148.42" y="0.65" width="6.38" height="38.69" style="fill:#fff"></rect>
+      <path d="M180.83,0a20.12,20.12,0,0,0-9.43,2.32V10a13.34,13.34,0,0,1,9.43-3.83A13.52,13.52,0,0,1,192.76,13l5.51-3.16A19.86,19.86,0,0,0,180.83,0" style="fill:#fff"></path>
+      <path d="M192.76,27a13.67,13.67,0,0,1-25.5-7h0V5.24A19.92,19.92,0,0,0,160.83,20a20.15,20.15,0,0,0,37.44,10.19Z" style="fill:#fff"></path>
+      <rect x="113.11" y="0.65" width="31.24" height="6.1" style="fill:#fff"></rect>
+      <rect x="125.54" y="10.89" width="6.38" height="28.46" style="fill:#fff"></rect>
+      <path d="M94.85.06V6.25a13.61,13.61,0,0,1,12,13.75,13.61,13.61,0,0,1-12,13.75v6.19a20,20,0,0,0,0-39.88" style="fill:#fff"></path>
+      <path d="M90.8,33.76A13.63,13.63,0,0,1,78.77,20a13.63,13.63,0,0,1,12-13.76V.06A19.87,19.87,0,0,0,72.34,20,19.86,19.86,0,0,0,90.8,39.94Z" style="fill:#fff"></path>
+      <path d="M196,1.28V.71h3.08v.57h-1.26V4.56h-.56V1.28Zm4.08-.07V4.56h-.57V.71h1l1.11,3.17L202.75.71h1V4.56h-.56V1.21L202,4.56h-.68Z" style="fill:#fff"></path>
+      <polygon points="64.5 15.98 73.32 0.67 66.05 0.67 60.86 9.69 64.5 15.98" style="fill:#fff"></polygon>
+      <polygon points="50.87 0.65 43.6 0.65 54.79 20.04 43.6 39.43 50.87 39.43 62.07 20.04 50.87 0.65" style="fill:#fff"></polygon>
+      <path d="M28.09,8.9v8.39h-5.4Zm6.32,8.39V.69H26.52L0,39.32H7.84l7.78-11.38,3.44-5H46.39V17.29Z" style="fill:#fff"></path>
+      <rect x="28.09" y="27.04" width="6.32" height="12.28" style="fill:#fff"></rect>
+    </g>
+  </g>
+</svg>
